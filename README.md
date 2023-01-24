@@ -6,7 +6,7 @@
 
 - Make a job-search platofrm for Blue Collar Workers.
 
-## [VIEW LIVE DEMO](https://practical-jepsen-534aed.netlify.app/)
+## [VIEW LIVE DEMO](https://professional-employment.netlify.app/)
 
 **Note** : SMS can be sent to only Twilio verified numbers as I am not using the paid service.
 
@@ -68,7 +68,6 @@ I have identified 9 categories of job-seekers to make the platform more intuitiv
 2. Update Profile
 3. Apply on jobs - just by clicking - as simple as that.
 4. The applicant gets an SMS on his/her phone number after applying to a job.
-   ![SMS TO APPLICANT](https://github.com/Manvityagi/Rozgaar-Blue-Collars-Job-Seach-Platform-Backend/raw/main/assets/msgToApplicant.jpg)
 
 ### For Job Poster
 
@@ -77,7 +76,7 @@ I have identified 9 categories of job-seekers to make the platform more intuitiv
 3. **Ease the flow** for both parties
    - Job Seekers Profiles will be available all throughout, Recruiters can directly see their profiles and give them a message/call
 4. Job Poster gets an email when someone applies on a job posted by him/her.
-   ![MAIL TO RECRUITER](https://github.com/Manvityagi/Rozgaar-Blue-Collars-Job-Seach-Platform-Backend/raw/main/assets/recruiterMail.PNG)
+
 
 ## Project Structure
 
@@ -101,8 +100,6 @@ We will structure our application using the controller, service, and, manager pa
 | REQUEST METHODS | ENDPOINTS | DESCRIPTION |
 | :-------------- | :-------: | ------------------: |
 | POST | /user/register | Adds new user to DB |
-
-### [Pending Tasks](https://github.com/Manvityagi/Rozgaar-Blue-Collars-Job-Seach-Platform-Backend/blob/main/tests.md)
 
 - Unit Tests - Due to shortage of time, I couldn't write many unit-test.
 - Login Sessions and Dashboard of Applications
